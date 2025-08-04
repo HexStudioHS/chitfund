@@ -1,0 +1,129 @@
+I want to build a complete chit fund management software for my company with the following features. The software must have a secure, user-friendly interface, ideally using Python for backend (Django or Flask) and a modern frontend (React/Next.js or Vue). It must support web and mobile access, and have automated messaging, verification, and secure document handling.
+
+✅ Key Modules and Functional Requirements:
+🔹 Member Management
+Add/edit members with full details (addresses, documents, contact)
+
+PAN, Aadhaar, GST verification
+
+Nominee & introducer details
+
+Family code grouping and shared contributions
+
+Smart risk scoring system (based on payment behavior)
+
+🔹 Group & Chit Management
+Create chit groups: define amount, duration, frequency
+
+Auto-calculate monthly contributions
+
+Support frequencies: Weekly, Bi-weekly, Monthly, Tri-monthly
+
+Flexible auction options with customizable settings
+
+Member auto-selection during auction based on discount bids
+
+Schedule & reschedule auctions (based on holiday calendar)
+
+🔹 Auction Management
+Estimate chit amounts using % calculations
+
+Include taxes, dates, multiple member bidding
+
+Auto-select winning members
+
+Upload auction details, minutes, and results
+
+🔹 Chit Transactions
+Daily/monthly payment tracking
+
+Auto-generated receipts (individual or bulk)
+
+Member ledger with history
+
+Payment only visible for winners
+
+Collection agent entries with verification and settlement
+
+Advance payouts for unprized members
+
+Different late fee % for prized/unprized
+
+🔹 Accounts & Ledger
+General transactions (purchase, sales, journal)
+
+Opening balances (chits and members)
+
+Ledger reports: General, Sub, Day Book
+
+Cheque register, returns, and bank details
+
+Year-end financial closing with P&L, income, expense
+
+GST integration for reporting
+
+🔹 Staff Management
+Add/edit staff details
+
+Staff roles and access control
+
+Collection agent performance and history
+
+🔹 CRM Features
+Lead and prospect management
+
+Guarantor management with attachments
+
+Jamin letter and tracking
+
+Convert leads to prospects with full history
+
+🔹 Reports Dashboard
+Cash Reports (Late fees, agent/group-wise)
+
+Ledger Reports (General, Sub, Daybook)
+
+Member Reports (Balance, transaction, credit-debit)
+
+GST Reports
+
+Arrear Reports (group, member, area wise)
+
+Chit Reports: Form XIV, Payment register, Payable amount, Annexures, Subscribers, Cost/Estimate Interest, Advance report
+
+🎨 UI/UX Requirements:
+Clean, modern dashboard UI with card layout
+
+Mobile-friendly responsive design
+
+Separate dashboards for Admin, Staff, and Members
+
+Dark mode toggle
+
+Graphs/charts for chit stats
+
+Upload & e-sign support for documents (PDF, JPG, PNG)
+
+🔐 Security:
+Two-factor authentication (optional)
+
+OTP/email/SMS alerts
+
+Role-based access control
+
+Backup & data export options
+
+🧑‍💻 Tech Stack Suggestion:
+Backend: Python (Django preferred) + REST API
+
+Frontend: React / Next.js / Vue
+
+Database: PostgreSQL or MongoDB
+
+Optional: Firebase/Auth0 for authentication
+
+☁️ Hosting & Deployment (Optional):
+Cloud support (AWS / Azure / Vercel / Firebase)
+
+Progressive Web App (PWA) features
+
